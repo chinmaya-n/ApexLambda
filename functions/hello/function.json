@@ -1,0 +1,5 @@
+{
+  "description": "Says Hello to the World!",
+  "handler": "index.handle",
+  "timeout": 45
+}

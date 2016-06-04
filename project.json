@@ -1,0 +1,8 @@
+{
+  "name": "SampleApex",
+  "description": "Python example Apex AWS Lambda Project",
+  "runtime": "python",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::12312312312:role/APIGatewayLambdaExecRole"
+}
