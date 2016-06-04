@@ -19,7 +19,7 @@ Including python packages
 In this demo I have used `arrow` package on purpose to demonstrate it. If you don't use any external package in your Lambda function, then you don't need to worry about this part.
 * If you use any non native python packages in your `functions/<FunctionName>/index.py`, you need to copy that package into `functions/<FunctionName>/` (Use `virtualenv` and `pip` to get that package into a dummy directory and copy it to here).
 
-You can change the name of the `index.py` to `main.py` but you also need to change the value for `handler` in `function.json` to `main.handle` from `index.handle`, where handle is the handling function in that file.
+You can change the name of the `index.py` to `main.py` but you also need to change the value for `handler` in `function.json` to `main.handle` from `index.handle`, where `handle` is the handling function in that file.
 
 Using Apex
 ==========
